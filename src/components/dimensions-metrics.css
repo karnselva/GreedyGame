@@ -1,0 +1,45 @@
+  .dimensions-metrics{
+      border: 1px solid #e5eaf4;
+      padding: 12px;
+      margin-top: 16px;
+      display: none;
+    }
+
+  .dimensions-metrics div{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+  .show{
+      display: block;
+    }
+
+  .card{
+      background-color: white;
+      min-width: 200px;
+      border-radius: 5px;
+      padding: 10px;
+      margin:12px 0px;
+      border: 1px solid  #e5eaf4;
+      cursor: move;
+      font-size: 18px;
+    }
+
+  .border-blue {
+      border-left: 5px solid blue;
+    }
+  .close-button{
+    border: 1px solid  #e5eaf4;
+    color: blue;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: 6px;
+    padding: 6px 10px;
+  }
+  .apply-changes{
+    background-color: blue;
+    color: white;
+    border: 1px solid  #e5eaf4;
+    padding: 6px 10px;
+  }

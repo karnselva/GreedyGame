@@ -1,0 +1,46 @@
+  table {
+    border-collapse: collapse;
+   
+    width: 100%;
+    margin: 32px auto;
+  }
+  table th, table td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    
+  }
+  p{
+    padding: 8px;
+  }
+  .app-filter{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+   
+  
+    text-align: left;
+    background-color:white;
+    z-index: 50;
+    top:100px;
+   
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  
+  .app-filter input{
+    border-radius: 6px;
+    border-width: 1px;
+    margin: 16px 0px;
+  }
+  .app-filter button{
+    background-color: lightblue;
+    border-radius: 5px;
+    border-width: 0px;
+   display: block;
+   margin-left: auto;
+   padding: 6px;
+  }
+  .column-heading{
+    position: relative;
+  }

@@ -1,0 +1,16 @@
+.app{
+    padding: 32px;
+}
+.setting-calender{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 16px;
+
+}
+.setting-calender button{
+    background-color: transparent;
+    border: 1px solid #e5eaf4;
+    padding: 6PX;
+}
+
